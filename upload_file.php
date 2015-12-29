@@ -2,7 +2,7 @@
 if (isset($_REQUEST['email']))
 {
   $domain='carcooper.github.io';
-  $from='carcooper.github.io';
+  $from='rish281293@gmail.com';
   $name = $_REQUEST['name1'] ;
   $add = $_REQUEST['add'] ;
   $phone = $_REQUEST['phone'] ;
@@ -24,7 +24,7 @@ if (isset($_REQUEST['email']))
     |--------------------End---------------------------|'; 
   echo ("<SCRIPT LANGUAGE='JavaScript'>
     window.alert('Thank you for your feedback. We will contact you shortly')
-    window.location.href='http://www.pearlgroup.asia';
+    window.location.href='http://carcooper.github.io';
     </SCRIPT>");  
 
 mail("rih281293@gmail.com",$from, $subject, $body);
