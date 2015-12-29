@@ -42,8 +42,7 @@
     	
     	
     	
-        <img class = "center-block" src = "./Images/1.jpg" />
-    
+      
 
     </body>
 
