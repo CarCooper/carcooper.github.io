@@ -1,8 +1,36 @@
-body{
-	background-color: black;
+
+body {
+    background: url('./Images/car.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
+
 .center-block {
     display: block;
+    margin-top: auto;
     margin-left: auto;
     margin-right: auto;
  }
+.navigation
+{
+	width: auto;
+	height:65px;
+}
+ .navbar
+ {
+ 	background-color: black;
+ 	border: 0px;
+ 	height: 63px;
+
+ }
+
+ .navbar-brand
+ {
+ 	padding: 8px 0 0 0;
+ }
+
